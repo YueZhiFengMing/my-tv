@@ -4,7 +4,6 @@ import android.content.res.Resources
 import android.os.Build
 import android.util.TypedValue
 import com.google.gson.Gson
-import com.lizongying.mytv.api.TimeResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.IOException
@@ -45,24 +44,7 @@ object Utils {
      * @return Long 时间戳
      */
     private suspend fun getTimestampFromServer(): Long {
-        return withContext(Dispatchers.IO) {
-            val client = okhttp3.OkHttpClient.Builder()
-                .connectTimeout(500, java.util.concurrent.TimeUnit.MILLISECONDS)
-                .readTimeout(1, java.util.concurrent.TimeUnit.SECONDS).build()
-            val request = okhttp3.Request.Builder()
-                .url("https://api.m.taobao.com/rest/api3.do?api=mtop.common.getTimestamp")
-                .build()
-            try {
-                client.newCall(request).execute().use { response ->
-                    if (!response.isSuccessful) throw IOException("Unexpected code $response")
-                    val string = response.body()?.string()
-                    Gson().fromJson(string, TimeResponse::class.java).data.t.toLong()
-                }
-            } catch (e: IOException) {
-                // Handle network errors
-                throw IOException("Error during network request", e)
-            }
-        }
+        return System.currentTimeMillis()
     }
 
     fun dpToPx(dp: Float): Int {

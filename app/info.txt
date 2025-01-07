@@ -1,0 +1,9 @@
+口令 watch_video
+姓氏 xionglong
+组织单位 xionglong
+组织名称 xionglong
+country cn
+city hunan
+国家 cn
+
+keytool -genkey -alias alias_name -keyalg RSA -keysize 2048 -validity 36500 -keystore release.keystore

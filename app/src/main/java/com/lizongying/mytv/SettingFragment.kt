@@ -35,7 +35,7 @@ class SettingFragment : DialogFragment() {
         val context = requireContext() // It‘s safe to get context here.
         _binding = SettingBinding.inflate(inflater, container, false)
         binding.versionName.text = "当前版本: v${context.appVersionName}"
-        binding.version.text = "https://github.com/lizongying/my-tv"
+        binding.version.text = "测试使用"
 
         binding.switchChannelReversal.run {
             isChecked = SP.channelReversal

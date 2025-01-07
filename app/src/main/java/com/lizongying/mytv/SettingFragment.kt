@@ -14,8 +14,6 @@ class SettingFragment : DialogFragment() {
     private var _binding: SettingBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var updateManager: UpdateManager
-
     override fun onStart() {
         super.onStart()
         dialog?.window?.apply {
@@ -71,11 +69,9 @@ class SettingFragment : DialogFragment() {
             }
         }
 
-        updateManager = UpdateManager(context, this, context.appVersionCode)
         binding.checkVersion.setOnClickListener(
             OnClickListenerCheckVersion(
-                activity as MainActivity,
-                updateManager
+                activity as MainActivity
             )
         )
 
@@ -93,13 +89,11 @@ class SettingFragment : DialogFragment() {
     }
 
     internal class OnClickListenerCheckVersion(
-        private val mainActivity: MainActivity,
-        private val updateManager: UpdateManager
+        private val mainActivity: MainActivity
     ) :
         View.OnClickListener {
         override fun onClick(view: View?) {
             mainActivity.settingDelayHide()
-            updateManager.checkAndUpdate()
         }
     }
 

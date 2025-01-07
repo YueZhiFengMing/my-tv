@@ -99,7 +99,7 @@ class PlayerFragment : Fragment(), SurfaceHolder.Callback {
     @OptIn(UnstableApi::class)
     fun play(tvViewModel: TVViewModel) {
         this.tvViewModel = tvViewModel
-        val testUrl = "http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8"
+        val testUrl = "http://[2409:8087:1a0a:df::404b]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8"
         playerView?.player?.run {
 //            setMediaItem(MediaItem.fromUri(testUrl))
             setMediaItem(MediaItem.fromUri(tvViewModel.getVideoUrlCurrent()))

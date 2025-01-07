@@ -30,7 +30,7 @@ object TVList {
                     "CCTV2 财经",
                     "CCTV2",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031101/index.m3u8?channel-id=bestzb&Contentid=5000000011000031101&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000023315/1.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/20115388de0207131af17eac86c33049b95d69eaff064e55653a1b941810a006.png?imageMogr2/format/webp",
@@ -60,7 +60,7 @@ object TVList {
                     "CCTV4 中文国际",
                     "CCTV4",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031102/index.m3u8?channel-id=bestzb&Contentid=5000000011000031102&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010017/1.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/f357e58fdbcc076a3d65e1f958c942b2e14f14342c60736ceed98b092d35356a.png?imageMogr2/format/webp",
@@ -105,7 +105,7 @@ object TVList {
                     "CCTV7 国防军事",
                     "CCTV7",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031104/index.m3u8?channel-id=bestzb&Contentid=5000000011000031104&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000024341/1.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/b29af94e295ebdf646cefb68122c429b9cd921f498ca20d2d8070252536f9ff9.png?imageMogr2/format/webp",
@@ -150,7 +150,7 @@ object TVList {
                     "CCTV10 科教",
                     "CCTV10",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000012827/index.m3u8?channel-id=bestzb&Contentid=5000000004000012827&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226473/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/aa6157ec65188cd41826e5a2f088c3d6d153205f5f6428258d12c59999e221aa.png?imageMogr2/format/webp",
@@ -165,7 +165,7 @@ object TVList {
                     "CCTV11 戏曲",
                     "CCTV11",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031106/index.m3u8?channel-id=bestzb&Contentid=5000000011000031106&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226565/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/ed12ed7c7a1034dae4350011fe039284c5d5a836506b28c9e32e3c75299625c0.png?imageMogr2/format/webp",
@@ -180,7 +180,7 @@ object TVList {
                     "CCTV12 社会与法",
                     "CCTV12",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031107/index.m3u8?channel-id=bestzb&Contentid=5000000011000031107&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001640/1.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/484083cffaa40df7e659565e8cb4d1cc740158a185512114167aa21fa0c59240.png?imageMogr2/format/webp",
@@ -195,7 +195,7 @@ object TVList {
                     "CCTV13 新闻",
                     "CCTV13",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031108/index.m3u8?channel-id=bestzb&Contentid=5000000011000031108&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/266da7b43c03e2312186b4a999e0f060e8f15b10d2cc2c9aa32171819254cf1a.png?imageMogr2/format/webp",
@@ -210,7 +210,7 @@ object TVList {
                     "CCTV14 少儿",
                     "CCTV14",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000006673/index.m3u8?channel-id=bestzb&Contentid=5000000004000006673&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010207/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/af6b603896938dc346fbb16abfc63c12cba54b0ec9d18770a15d347d115f12d5.png?imageMogr2/format/webp",
@@ -225,7 +225,7 @@ object TVList {
                     "CCTV15 音乐",
                     "CCTV15",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031109/index.m3u8?channel-id=bestzb&Contentid=5000000011000031109&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/2ceee92188ef684efe0d8b90839c4f3ad450d179dc64d59beff417059453af47.png?imageMogr2/format/webp",
@@ -557,7 +557,7 @@ object TVList {
                     "辽宁卫视",
                     "辽宁卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000011671/index.m3u8?channel-id=bestzb&Contentid=5000000004000011671&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/ac4ed6058a87c101ae7147ebc38905d0cae047fb73fd277ee5049b84f52bda36.png?imageMogr2/format/webp",
@@ -587,7 +587,7 @@ object TVList {
                     "江西卫视",
                     "江西卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000011210/index.m3u8?channel-id=bestzb&Contentid=5000000004000011210&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/3c760d0d00463855890e8a1864ea4a6b6dd66b90c29b4ac714a4b17c16519871.png?imageMogr2/format/webp",
@@ -632,7 +632,7 @@ object TVList {
                     "广西卫视",
                     "广西卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000011000031118/index.m3u8?channel-id=bestzb&Contentid=5000000011000031118&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010099/main.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/54b7e97cb816bb223fe05f3fc44da2c7820eb66e8550c19d23100f2c414ecc38.png?imageMogr2/format/webp",
@@ -647,7 +647,7 @@ object TVList {
                     "重庆卫视",
                     "重庆卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000025797/index.m3u8?channel-id=bestzb&Contentid=5000000004000025797&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000001000001096/1.m3u8")
                     },
                     "地方",
                     R.drawable.chongqing,
@@ -677,7 +677,7 @@ object TVList {
                     "河北卫视",
                     "河北卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000006000040016/index.m3u8?channel-id=bestzb&Contentid=5000000006000040016&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/d545becdc81c60197b08c7f47380705e4665ed3fe55efc8b855e486f6e655378.png?imageMogr2/format/webp",
@@ -707,7 +707,7 @@ object TVList {
                     "北京卫视",
                     "北京卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000031556/index.m3u8?channel-id=bestzb&Contentid=5000000004000031556&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/f4f23633c578beea49a3841d88d3490100f029ee349059fa532869db889872c5.png?imageMogr2/format/webp",
@@ -752,7 +752,7 @@ object TVList {
                     "安徽卫视",
                     "安徽卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000023002/index.m3u8?channel-id=bestzb&Contentid=5000000004000023002&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/f35fa04b51b1ee4984b03578b65403570868ebca03c6c01e11b097f999a58d9b.png?imageMogr2/format/webp",
@@ -812,7 +812,7 @@ object TVList {
                     "海南卫视",
                     "海南卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000006211/index.m3u8?channel-id=bestzb&Contentid=5000000004000006211&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8")
                     },
                     "地方",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/6e060391fde0469801fc3d84dbf204b4f8d650d251f17d7595a6964c0bb99e81.png?imageMogr2/format/webp",
@@ -827,7 +827,7 @@ object TVList {
                     "天津卫视",
                     "天津卫视",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::2]:6610/000000001000/5000000004000006827/index.m3u8?channel-id=bestzb&Contentid=5000000004000006827&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8")
                     },
                     "地方",
                     R.drawable.tianjin,
@@ -934,7 +934,7 @@ object TVList {
                     "哈哈炫动",
                     "哈哈炫动",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::d]:6610/000000001000/1/5000000011000031123/index.m3u8?channel-id=bestzb&Contentid=5000000011000031123&livemode=1&stbId=YanG-1989")
+                        add("http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000000172/1.m3u8")
                     },
                     "少儿",
                     R.drawable.haha,
@@ -959,7 +959,46 @@ object TVList {
                     true,
                     mustToken = false
                 ),
+            ),
+            "湖南" to listOf(
+                TV(
+                    0,
+                    "湖南娱乐",
+                    "湖南娱乐",
+                    mutableListOf<String>().apply {
+                        add("http://223.145.224.216:8000/udp/239.76.253.105:9000")
+                    },
+                    "湖南",
+                    R.drawable.heimei,
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
             )
+
+//            #EXTM3U
+//        #EXTINF:-1 group-title="成人",Desire
+//        http://88.212.7.11/live/test_desire_hd_hevc/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Brazzers
+//        http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Dorcel
+//        http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Eroxxx
+//        http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Erox HD
+//        http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Extasy
+//        http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Playboy HD
+//        http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+//        #EXTINF:-1 group-title="成人",Penthouse HD
+//        http://31.131.136.4:8000/play/a003
+//        #EXTINF:-1 group-title="成人",Hustler HD
+//        http://31.131.136.4:8000/play/a00g
+//        #EXTINF:-1 group-title="成人",Redlight HD
+//        http://31.131.136.4:8000/play/a004
 //            "港澳台" to listOf(
 //                TV(
 //                    0,

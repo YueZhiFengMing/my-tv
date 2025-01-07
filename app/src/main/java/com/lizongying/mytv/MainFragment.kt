@@ -1,6 +1,8 @@
 package com.lizongying.mytv
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -141,6 +143,7 @@ class MainFragment : BrowseSupportFragment() {
             itemPosition = 0
         }
         tvListViewModel.setItemPosition(itemPosition)
+
     }
 
     fun prevSource() {

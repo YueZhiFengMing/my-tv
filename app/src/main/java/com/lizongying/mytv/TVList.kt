@@ -45,7 +45,7 @@ object TVList {
                     "CCTV3 综艺",
                     "CCTV3",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000004000008883/index.m3u8?channel-id=bestzb&Contentid=5000000004000008883&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/7b7a65c712450da3deb6ca66fbacf4f9aee00d3f20bd80eafb5ada01ec63eb3a.png?imageMogr2/format/webp",
@@ -75,7 +75,7 @@ object TVList {
                     "CCTV5 体育",
                     "CCTV5",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000004000008885/index.m3u8?channel-id=bestzb&Contentid=5000000004000008885&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/0a6a7138952675983a3d854df7688557b286d59aa06166edae51506f9204d655.png?imageMogr2/format/webp",
@@ -90,7 +90,7 @@ object TVList {
                     "CCTV6 电影",
                     "CCTV6",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000004000008886/index.m3u8?channel-id=bestzb&Contentid=5000000004000008886&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/741515efda91f03f455df8a7da4ee11fa9329139c276435cf0a9e2af398d5bf2.png?imageMogr2/format/webp",
@@ -120,7 +120,7 @@ object TVList {
                     "CCTV8 电视剧",
                     "CCTV8",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000004000008888/index.m3u8?channel-id=bestzb&Contentid=5000000004000008888&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a0a:df::4031]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/ad51de94426a0ba039e6dd6a8534ea98ecc813a6176bde87b4f18cc34d6d7590.png?imageMogr2/format/webp",
@@ -135,7 +135,7 @@ object TVList {
                     "CCTV9 纪录",
                     "CCTV9",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/6000000001000032162/index.m3u8?channel-id=wasusyt&Contentid=6000000001000032162&livemode=1&stbId=3")
+                        add("http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226197/1.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/2ed1b4deeca179d5db806bb941790f82eb92a1b7299c1c38fe027f95a5caee5e.png?imageMogr2/format/webp",
@@ -240,7 +240,7 @@ object TVList {
                     "CCTV16 奥林匹克",
                     "CCTV16-HD",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000008000023253/index.m3u8?channel-id=bestzb&Contentid=5000000008000023253&livemode=1&stbId=3")
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/53793fa7bacd3a93ff6dc5d2758418985e1f952a316c335d663b572d8bdcd74d.png?imageMogr2/format/webp",
@@ -270,7 +270,7 @@ object TVList {
                     "CCTV5+ 体育赛事",
                     "CCTV5+",
                     mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000011000031127/index.m3u8?channel-id=bestzb&Contentid=5000000011000031127&livemode=1&stbId=3")
+                        add("http://[2409:8087:7008:20::8]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/649ad76a90bfef55b05db9fe52e006487280f619089099d5dc971e387fc6eff0.png?imageMogr2/format/webp",
@@ -280,21 +280,21 @@ object TVList {
                     true,
                     mustToken = false
                 ),
-                TV(
-                    0,
-                    "CCTV4K 超高清",
-                    "CCTV4K",
-                    mutableListOf<String>().apply {
-                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3")
-                    },
-                    "央视",
-                    "https://resources.yangshipin.cn/assets/oms/image/202306/3e9d06fd7244d950df5838750f1c6ac3456e172b51caca2c16d2282125b111e8.png?imageMogr2/format/webp",
-                    "600002264",
-                    "2022575201",
-                    ProgramType.Y_PROTO,
-                    true,
-                    mustToken = false
-                ),
+//                TV(
+//                    0,
+//                    "CCTV4K 超高清",
+//                    "CCTV4K",
+//                    mutableListOf<String>().apply {
+//                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3")
+//                    },
+//                    "央视",
+//                    "https://resources.yangshipin.cn/assets/oms/image/202306/3e9d06fd7244d950df5838750f1c6ac3456e172b51caca2c16d2282125b111e8.png?imageMogr2/format/webp",
+//                    "600002264",
+//                    "2022575201",
+//                    ProgramType.Y_PROTO,
+//                    true,
+//                    mustToken = false
+//                ),
 //                TV(
 //                    0,
 //                    "CCTV8K 超高清",

@@ -883,6 +883,83 @@ object TVList {
                     mustToken = false
                 ),
             ),
+            "少儿" to listOf(
+                TV(
+                    0,
+                    "黑莓动画",
+                    "黑莓动画",
+                    mutableListOf<String>().apply {
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8")
+                    },
+                    "少儿",
+                    R.drawable.heimei,
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "卡酷少儿",
+                    "卡酷少儿",
+                    mutableListOf<String>().apply {
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225654/1.m3u8")
+                    },
+                    "少儿",
+                    R.drawable.kakushaoer,
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "金鹰卡通",
+                    "金鹰卡通",
+                    mutableListOf<String>().apply {
+                        add("http://[2409:8087:5e08:24::d]:6610/000000001000/5000000006000040024/index.m3u8?channel-id=bestzb&Contentid=5000000006000040024&livemode=1&stbId=YanG-1989")
+                    },
+                    "少儿",
+                    R.drawable.jinyinkatong,
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "哈哈炫动",
+                    "哈哈炫动",
+                    mutableListOf<String>().apply {
+                        add("http://[2409:8087:5e08:24::d]:6610/000000001000/1/5000000011000031123/index.m3u8?channel-id=bestzb&Contentid=5000000011000031123&livemode=1&stbId=YanG-1989")
+                    },
+                    "少儿",
+                    R.drawable.haha,
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "黑龙江少儿",
+                    "黑龙江少儿",
+                    mutableListOf<String>().apply {
+                        add("http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8")
+                    },
+                    "少儿",
+                    R.drawable.heilongjiangshaoer,
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+            )
 //            "港澳台" to listOf(
 //                TV(
 //                    0,

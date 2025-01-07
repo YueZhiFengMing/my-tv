@@ -226,10 +226,6 @@ class MainFragment : BrowseSupportFragment() {
 
     fun fragmentReady() {
         tvListViewModel.getTVViewModel(itemPosition)?.changed()
-
-        tvListViewModel.tvListViewModel.value?.forEach { tvViewModel ->
-            updateEPG(tvViewModel)
-        }
     }
 
     fun play(itemPosition: Int) {
@@ -263,22 +259,6 @@ class MainFragment : BrowseSupportFragment() {
             }
             tvListViewModel.setItemPosition(itemPosition)
             tvListViewModel.getTVViewModel(itemPosition)?.changed()
-        }
-    }
-
-    private fun updateEPG(tvViewModel: TVViewModel) {
-        when (tvViewModel.getTV().programType) {
-            ProgramType.Y_PROTO -> {
-                Request.fetchYProtoEPG(tvViewModel)
-            }
-
-            ProgramType.Y_JCE -> {
-                Request.fetchYJceEPG(tvViewModel)
-            }
-
-            ProgramType.F -> {
-                Request.fetchFEPG(tvViewModel)
-            }
         }
     }
 

@@ -24,7 +24,7 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
 
-class MainActivity : FragmentActivity(), Request.RequestListener {
+class MainActivity : FragmentActivity() {
 
     private var ready = 0
     private val playerFragment = PlayerFragment()
@@ -58,8 +58,6 @@ class MainActivity : FragmentActivity(), Request.RequestListener {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-
-        Request.setRequestListener(this)
 
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
@@ -505,17 +503,6 @@ class MainActivity : FragmentActivity(), Request.RequestListener {
 
     override fun onDestroy() {
         super.onDestroy()
-        Request.onDestroy()
-    }
-
-    override fun onRequestFinished(message: String?) {
-        if (message != null && !errorFragment.isVisible) {
-            supportFragmentManager.beginTransaction()
-                .add(R.id.main_browse_fragment, errorFragment)
-                .commitNow()
-            errorFragment.setErrorContent(message)
-        }
-        fragmentReady("Request")
     }
 
     private companion object {

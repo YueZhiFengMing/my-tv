@@ -101,17 +101,17 @@ class MainFragment : BrowseSupportFragment() {
                 if (tvViewModel.change.value != null) {
                     val title = tvViewModel.getTV().title
                     Log.i(TAG, "switch $title")
-                    if (tvViewModel.getTV().pid != "") {
-                        Log.i(TAG, "request $title")
-                        lifecycleScope.launch(Dispatchers.IO) {
-                            tvViewModel.let { Request.fetchData(it) }
-                        }
-                        (activity as? MainActivity)?.showInfoFragment(tvViewModel)
-                        setSelectedPosition(
-                            tvViewModel.getRowPosition(), true,
-                            SelectItemViewHolderTask(tvViewModel.getItemPosition())
-                        )
-                    } else {
+//                    if (tvViewModel.getTV().pid != "") {
+//                        Log.i(TAG, "request $title")
+//                        lifecycleScope.launch(Dispatchers.IO) {
+//                            tvViewModel.let { Request.fetchData(it) }
+//                        }
+//                        (activity as? MainActivity)?.showInfoFragment(tvViewModel)
+//                        setSelectedPosition(
+//                            tvViewModel.getRowPosition(), true,
+//                            SelectItemViewHolderTask(tvViewModel.getItemPosition())
+//                        )
+//                    } else {
                         if (check(tvViewModel)) {
                             (activity as? MainActivity)?.play(tvViewModel)
                             (activity as? MainActivity)?.showInfoFragment(tvViewModel)
@@ -120,7 +120,7 @@ class MainFragment : BrowseSupportFragment() {
                                 SelectItemViewHolderTask(tvViewModel.getItemPosition())
                             )
                         }
-                    }
+//                    }
                 }
             }
         }
@@ -157,6 +157,9 @@ class MainFragment : BrowseSupportFragment() {
                 val tvViewModel = TVViewModel(v1)
                 tvViewModel.setRowPosition(idx.toInt())
                 tvViewModel.setItemPosition(idx2)
+                if(v1.videoUrl.isNotEmpty()) {
+                    tvViewModel.addVideoUrl(v1.videoUrl[0])
+                }
                 tvListViewModel.addTVViewModel(tvViewModel)
                 listRowAdapter.add(tvViewModel)
             }

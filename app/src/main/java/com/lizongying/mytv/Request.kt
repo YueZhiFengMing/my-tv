@@ -687,41 +687,6 @@ object Request {
         tvModel.seq++
     }
 
-    fun fetchPage() {
-        callPage = yspProtoService.getPage()
-        callPage?.enqueue(object : Callback<pageModel.Response> {
-            override fun onResponse(
-                call: Call<pageModel.Response>,
-                response: Response<pageModel.Response>
-            ) {
-                if (response.isSuccessful) {
-                    val body = response.body()
-                    if (body?.data?.feedModuleListCount == 1) {
-                        for (item in body.data?.feedModuleListList!![0]?.dataTvChannelListList!!) {
-                            Log.d(
-                                TAG,
-                                "${item.channelName},${item.pid},${item.streamId}"
-                            )
-
-                            for ((_, v) in TVList.list) {
-                                for (v2 in v) {
-                                    if (v2.title == item.channelName || v2.alias == item.channelName) {
-                                        v2.pid = item.pid
-                                        v2.sid = item.streamId
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            override fun onFailure(call: Call<pageModel.Response>, t: Throwable) {
-                Log.e(TAG, "Page request failed", t)
-            }
-        })
-    }
-
     fun fetchYJceEPG(tvViewModel: TVViewModel) {
         val title = tvViewModel.getTV().title
         yspJceService.getProgram(TVTimeShiftProgramRequest(tvViewModel.getTV().pid))

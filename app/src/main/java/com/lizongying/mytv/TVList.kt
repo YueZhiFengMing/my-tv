@@ -45,7 +45,7 @@ object TVList {
                     "CCTV3 综艺",
                     "CCTV3",
                     mutableListOf<String>().apply {
-                           add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000004000008883/index.m3u8?channel-id=bestzb&Contentid=5000000004000008883&livemode=1&stbId=3")
+                        add("http://[2409:8087:5e08:24::17]:6610/000000001000/5000000004000008883/index.m3u8?channel-id=bestzb&Contentid=5000000004000008883&livemode=1&stbId=3")
                     },
                     "央视",
                     "https://resources.yangshipin.cn/assets/oms/image/202306/7b7a65c712450da3deb6ca66fbacf4f9aee00d3f20bd80eafb5ada01ec63eb3a.png?imageMogr2/format/webp",
@@ -1029,11 +1029,9 @@ object TVList {
         list.forEach { (k, v) ->
             val group = mutableListOf<TV>()
             v.forEach { v1 ->
-                if (!v1.mustToken) {
-                    v1.id = id
-                    id++
-                    group.add(v1)
-                }
+                v1.id = id
+                id++
+                group.add(v1)
             }
             if (group.size > 0) {
                 listNew[k] = group

@@ -9,6 +9,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.lizongying.mytv.Utils.getDateFormat
 import com.lizongying.mytv.databinding.TimeBinding
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 class TimeFragment : Fragment() {
     private var _binding: TimeBinding? = null
@@ -75,6 +78,13 @@ class TimeFragment : Fragment() {
             binding.content.text = getDateFormat("HH:mm")
             handler.postDelayed(showRunnable, delay)
         }
+    }
+
+    private fun getDateFormat(format: String): String {
+        return SimpleDateFormat(
+            format,
+            Locale.CHINA
+        ).format(Date(System.currentTimeMillis()))
     }
 
     fun show() {

@@ -41,29 +41,6 @@ class MainFragment : BrowseSupportFragment() {
         headersState = HEADERS_DISABLED
     }
 
-//    override fun onCreateView(
-//        inflater: LayoutInflater,
-//        container: ViewGroup?,
-//        savedInstanceState: Bundle?
-//    ): View? {
-//        val rootView = super.onCreateView(inflater, container, savedInstanceState)
-//        rootView?.setOnClickListener {
-//            Log.i(TAG, "main on click")
-//            fragmentManager!!.beginTransaction().hide(this).commit()
-//        }
-//        mainFragment.view?.setOnClickListener {
-//            Log.i(TAG, "mainFragment on click")
-//            fragmentManager!!.beginTransaction().hide(this).commit()
-//        }
-//        getRowsSupportFragment().view?.setOnClickListener {
-//            Log.i(TAG, "getRowsSupportFragment on click")
-//            fragmentManager!!.beginTransaction().hide(this).commit()
-//        }
-//
-//
-//        return rootView
-//    }
-
     override fun onStart() {
         Log.i(TAG, "onStart")
         super.onStart()
@@ -101,26 +78,14 @@ class MainFragment : BrowseSupportFragment() {
                 if (tvViewModel.change.value != null) {
                     val title = tvViewModel.getTV().title
                     Log.i(TAG, "switch $title")
-//                    if (tvViewModel.getTV().pid != "") {
-//                        Log.i(TAG, "request $title")
-//                        lifecycleScope.launch(Dispatchers.IO) {
-//                            tvViewModel.let { Request.fetchData(it) }
-//                        }
-//                        (activity as? MainActivity)?.showInfoFragment(tvViewModel)
-//                        setSelectedPosition(
-//                            tvViewModel.getRowPosition(), true,
-//                            SelectItemViewHolderTask(tvViewModel.getItemPosition())
-//                        )
-//                    } else {
-                        if (check(tvViewModel)) {
-                            (activity as? MainActivity)?.play(tvViewModel)
-                            (activity as? MainActivity)?.showInfoFragment(tvViewModel)
-                            setSelectedPosition(
-                                tvViewModel.getRowPosition(), true,
-                                SelectItemViewHolderTask(tvViewModel.getItemPosition())
-                            )
-                        }
-//                    }
+                    if (check(tvViewModel)) {
+                        (activity as? MainActivity)?.play(tvViewModel)
+                        (activity as? MainActivity)?.showInfoFragment(tvViewModel)
+                        setSelectedPosition(
+                            tvViewModel.getRowPosition(), true,
+                            SelectItemViewHolderTask(tvViewModel.getItemPosition())
+                        )
+                    }
                 }
             }
         }
@@ -157,7 +122,7 @@ class MainFragment : BrowseSupportFragment() {
                 val tvViewModel = TVViewModel(v1)
                 tvViewModel.setRowPosition(idx.toInt())
                 tvViewModel.setItemPosition(idx2)
-                if(v1.videoUrl.isNotEmpty()) {
+                if (v1.videoUrl.isNotEmpty()) {
                     tvViewModel.addVideoUrl(v1.videoUrl[0])
                 }
                 tvListViewModel.addTVViewModel(tvViewModel)

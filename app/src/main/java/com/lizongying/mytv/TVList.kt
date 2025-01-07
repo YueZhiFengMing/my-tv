@@ -966,16 +966,16 @@ object TVList {
                     "湖南娱乐",
                     "湖南娱乐",
                     mutableListOf<String>().apply {
-                        add("http://223.145.224.216:8000/udp/239.76.253.105:9000")
+                        add("http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNYLMPP360.m3u8")
                     },
                     "湖南",
-                    R.drawable.heimei,
+                    R.drawable.hunanyule,
                     "",
                     "",
                     ProgramType.Y_JCE,
                     true,
                     mustToken = false
-                ),
+                )
             )
 
 //            #EXTM3U

@@ -7,3 +7,5 @@ city hunan
 国家 cn
 
 keytool -genkey -alias alias_name -keyalg RSA -keysize 2048 -validity 36500 -keystore release.keystore
+
+https://epg.pw/test_channel_page.html?lang=zh-hans

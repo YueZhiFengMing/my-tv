@@ -966,7 +966,7 @@ object TVList {
                     "湖南娱乐",
                     "湖南娱乐",
                     mutableListOf<String>().apply {
-                        add("https://stream1.freetv.fun/hu-nan-yu-le-14.m3u8")
+                        add("http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNYLMPP360.m3u8")
                     },
                     "湖南",
                     R.drawable.hunanyule,
@@ -996,7 +996,7 @@ object TVList {
                     "湖南国际",
                     "湖南国际",
                     mutableListOf<String>().apply {
-                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPTY3ZTI2MzRkNzlhYzQ2NWIyY2IyNWE2NWUxM2MzZTQ3JnVpZD0mdXVpZD0xYzBjMmEyMDNjZDk0ODQ4MjFkZTU3NzhhYzFmZmIyMS02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzMyMjE4/HNGJMPP360.m3u8")
+                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPWY5M2M3ZjlhZjUxNWZiOWFlMGZjNjk3Y2YxZTkxZWRmJnVpZD0mdXVpZD03ZDFmODU2Nzc0NzE4ZmRiOWM2MWE1NmU5OTlmMDZlNy02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzYyMDIz/HNGJMPP360.m3u8")
                     },
                     "湖南",
                      "https://epg.pw/media/images/channel/2022/05/26/large/20220526142404304642_26.jpg",

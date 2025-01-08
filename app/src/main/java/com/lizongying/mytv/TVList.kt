@@ -966,7 +966,7 @@ object TVList {
                     "湖南娱乐",
                     "湖南娱乐",
                     mutableListOf<String>().apply {
-                        add("http://phonetx.qing.mgtv.com/nn_live/nn_x64/8.8&/HNYLMPP360.m3u8")
+                        add("https://stream1.freetv.fun/hu-nan-yu-le-14.m3u8")
                     },
                     "湖南",
                     R.drawable.hunanyule,
@@ -975,7 +975,127 @@ object TVList {
                     ProgramType.Y_JCE,
                     true,
                     mustToken = false
-                )
+                ),
+                TV(
+                    0,
+                    "湖南公共",
+                    "湖南公共",
+                    mutableListOf<String>().apply {
+                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPTUyMDdhM2RlZTBhMzBmNmQ4MzJjODkwMDMyOTQ5MTBlJnVpZD0mdXVpZD0zZjY1MjhmNWY4NDVkN2M2ZTkyYmI5MmIyNzk4MmM5OC02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzQ4MTA4/HNGGMPP360.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2024/03/13/large/20240313190904311042_50.png",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "湖南国际",
+                    "湖南国际",
+                    mutableListOf<String>().apply {
+                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPTY3ZTI2MzRkNzlhYzQ2NWIyY2IyNWE2NWUxM2MzZTQ3JnVpZD0mdXVpZD0xYzBjMmEyMDNjZDk0ODQ4MjFkZTU3NzhhYzFmZmIyMS02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzMyMjE4/HNGJMPP360.m3u8")
+                    },
+                    "湖南",
+                     "https://epg.pw/media/images/channel/2022/05/26/large/20220526142404304642_26.jpg",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "湖南经视",
+                    "湖南经视",
+                    mutableListOf<String>().apply {
+                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPWNiMWRkNzI4Yjg5YTNlZmZkYTEwZjQyYWE4NjMwYjMwJnVpZD0mdXVpZD1kOTM0ZTk5MTc0MjgwM2QyYjYxZDliYTQzNzkwMTUyZi02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzQ3Nzk1/HNJSMPP360.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2022/05/26/large/20220526142556787828_84.jpg",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "湖南卫视",
+                    "湖南卫视",
+                    mutableListOf<String>().apply {
+                        add("https://stream1.freetv.fun/ipv6-hu-nan-wei-shi-36.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2022/12/06/large/20221206011007840679_77.jpg",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "湖南都市",
+                    "湖南都市",
+                    mutableListOf<String>().apply {
+                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPWQyY2YwMWRjMGI0ZDg1NWJhZjMyMmU2NjcxMTEyNDhjJnVpZD0mdXVpZD0zYzBmM2RiNzMyNDNiYzlkYjM4NmE0YjI0MWYyOTQyMi02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzQ3NzM2/HNDSMPP360.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2022/05/26/large/20220526122553316545_61.jpg",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "湖南电影",
+                    "湖南电影",
+                    mutableListOf<String>().apply {
+                        add("https://stream1.freetv.fun/hu-nan-dian-ying-13.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2024/03/11/large/20240311112143980243_98.png",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "湖南电视剧",
+                    "湖南电视剧",
+                    mutableListOf<String>().apply {
+                        add("http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwMy4zOS4yMjYuMTAwJnFpZD0mY2RuZXhfaWQ9cXFfcGhvbmVfbGl2ZSZzPWJjYjAzMDIzY2JlNjgzZDAwMTFhYTg2YzE2MTNhMmFlJnVpZD0mdXVpZD0zMGNkYTZlYjkyN2Q2MDQ4YzM5MWE1ZjQ1ZDU0NTc1Yi02NzI3ZTI2NCZ2PTImYXM9MCZlcz0xNzM2MzQ3ODAz/HNDSJMPP360.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2024/03/11/large/20240311111928211584_68.png",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
+                TV(
+                    0,
+                    "金鹰纪实",
+                    "金鹰纪实",
+                    mutableListOf<String>().apply {
+                        add("https://stream1.freetv.fun/ipv6-jin-ying-ji-shi-16.m3u8")
+                    },
+                    "湖南",
+                    "https://epg.pw/media/images/channel/2023/06/05/large/20230605010658568388_25.jpg",
+                    "",
+                    "",
+                    ProgramType.Y_JCE,
+                    true,
+                    mustToken = false
+                ),
             )
 
 //            #EXTM3U

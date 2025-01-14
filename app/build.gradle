@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.lizongying.mytv"
+        applicationId "com.xionglong.mytv"
         minSdk 21
         targetSdk 32
         versionCode 2
